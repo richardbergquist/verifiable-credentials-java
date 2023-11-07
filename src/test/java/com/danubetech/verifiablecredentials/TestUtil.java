@@ -73,12 +73,12 @@ public class TestUtil {
                     -----END PUBLIC KEY-----
                     """;
 
-	static final byte[] testEd25519PrivateKey;
-	static final byte[] testEd25519PublicKey;
-	static final ECKey testSecp256k1PrivateKey;
-	static final ECKey testSecp256k1PublicKey;
-	static final KeyPair testRSAPrivateKey;
-	static final RSAPublicKey testRSAPublicKey;
+	public static final byte[] testEd25519PrivateKey;
+	public static final byte[] testEd25519PublicKey;
+	public static final ECKey testSecp256k1PrivateKey;
+	public static final ECKey testSecp256k1PublicKey;
+	public static final KeyPair testRSAPrivateKey;
+	public static final RSAPublicKey testRSAPublicKey;
 
 	static {
 
